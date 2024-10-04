@@ -1,4 +1,4 @@
-                                                                    /* Universal Style */
+                                                        /* Universal Style */
 * {
     margin: 0%;
     padding: 0%;
@@ -10,7 +10,7 @@ html {
 }
 
 
-                                                                      /* Upper Part */
+                                                          /* Upper Part */
 #main {
     background-color: white;
     min-height: 150vh;
@@ -55,7 +55,7 @@ h4 {
 }
 
 
-                                                                        /* Lower Part */
+                                                          /* Lower Part */
 #collection {
     display: flex;
     flex-wrap: wrap;
@@ -89,4 +89,27 @@ h4 {
 .box p span {
     opacity: 0.7;
     font-size: 15px;
+}
+
+
+                                                          /* Footer Part */
+#footer {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px 0 25px 0;
+}
+
+#footer div {
+    display: flex;
+}
+
+#footer span a {
+    padding-left: 5px;
+}
+
+#footer span img {
+    width: 25px;
+    height: 25px;
 }
