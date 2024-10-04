@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+}
+
+html {
+    min-height: 100%;
+    /* border: 5px solid red;  */
+}
+
+#main {
+    background-color: white;
+    min-height: 150vh;
+
+}
+
+#header {
+    background-color: black;
+    max-height: 25rem;
+}
+
+nav {
+    display: flex;
+    padding: 2rem 0rem 0rem 15%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+    margin-left: 2rem;
+}
+
+h1 {
+    color: white;
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+
+h4 {
+    color: wheat;
+    font-weight: 400;
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8.5rem 0rem 10rem 0rem;
+}
+
+
+
+
+#collection {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 13%;
+    margin-right: 10%;
+
+}
+
+.box {
+    border-radius: 5px;
+    box-shadow: 0px 0.5px 5px 0px rgb(180, 180, 180);
+    text-align: left;
+    width: 30%;
+}
+
+.box img {
+    width: 100%;
+}
+
+.box p {
+    padding: 20px;
+    font-size: 23px;
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+}
+
+.box p span {
+    opacity: 0.7;
+    font-size: 15px;
+}
